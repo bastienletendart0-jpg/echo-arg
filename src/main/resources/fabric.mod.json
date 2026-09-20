@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "echoarg",
+  "version": "${version}",
+  "name": "Écho ARG",
+  "description": "Mod ARG : un enquêteur (Edwin512), un Mimic (The_Mark579), une santé mentale qui s'effondre, des indices chiffrés pour les spectateurs.",
+  "authors": ["Edwin512"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": { "main": ["fr.echoarg.ArgMod"] },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
